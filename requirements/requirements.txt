@@ -1,0 +1,44 @@
+1- Create a function expression called sayHi that simply logs "Hi" 
+
+2- Create a function expression called sayHello that takes name as parameter that logs "Hi NAME_HERE" 
+
+3- Create a function expression called greeting that takes name as parameter with "unkown" as default value that logs "Hi NAME_HERE" and then:
+    * call it and pass a name
+    * call it without passing anything
+
+4- Create a function expression called welcome that takes isRegistered as parameter, then:
+    * if isRegistered is false, stop the function (implement early return) and logs "access denied"
+    * Otherwise logs "passed"
+
+5- Create a function expression called multiplication, that takes number_1 and number_2, and then returns their multiplication. log the result.
+
+6- Create a function expression called printDetails, that takes username, age and courses. Then log in the form of:
+Hi, my name is USERNMAE_IS_HERE, I'm AGE_IS_HERE years old. My courses are:
+    - HTML
+    - CSS
+    - JS
+    - SQL
+Note: courses are done using rest params.
+
+7- Using the setTimeout function (watch it in the session), create inside it a function expression that simply logs "Hi" after 3 seconds from it being called.
+
+8- Create an arrow function called arrowSayHi that simply logs "Hi"
+
+9- Create an arrow function called arrowGreeting that takes name as parameter simply logs "Hi NAME_IS_HERE"
+
+10- Create an arrow function called summation that takes number_1 and number_2 as parameters and returns their summation and log the result.
+
+11- Create a arrow function called function_1 that logs "Hi from function_1" and it also call the inner arrow function_2 that logs "Hi from function_2". 
+
+12- Create a arrow function called division that takes x as a parameter, and returns a function that:
+    * takes y as a parameter
+    * returns null if y is 0, otherwise it returns x/y
+
+13- Create 5 arrow functions:
+    * arrowSummation that takes n1 and n2 and returns their summation
+    * arrowSubtraction that takes n1 and n2 and returns their subtraction
+    * arrowDivision that takes n1 and n2 and returns null if y is 0, otherwise it returns their division
+    * arrowMultiplication that takes n1 and n2 and returns their multiplication
+    * calculator that:
+        * takes callback, n1 and n2 as parameters
+        * returns the result of callback(n1,n2)
