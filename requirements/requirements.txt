@@ -30,7 +30,7 @@ Note: courses are done using rest params.
 
 11- Create a arrow function called function_1 that logs "Hi from function_1" and it also call the inner arrow function_2 that logs "Hi from function_2". 
 
-12- Create a arrow function called division that takes x as a parameter, and returns a function that:
+12- Create an arrow function called division that takes x as a parameter, and returns a function that:
     * takes y as a parameter
     * returns null if y is 0, otherwise it returns x/y
 
